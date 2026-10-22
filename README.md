@@ -59,6 +59,16 @@ sudo systemctl restart bluetooth
 
 ---
 
+## Case studies
+
+Real-world traces and fixes for specific controllers:
+
+- [Generic multi-mode gamepad (USB `045e:028e` / BT `1949:0402`)](CASES/generic-multimode-1949-0402.md)
+  — adapter not `connectable`, `Page Timeout`, `Authentication Failure (0x05)`,
+  and why `UserspaceHID=false` matters for clones.
+
+---
+
 ## Credits
 
 Step 2 sourced from [this Reddit comment](https://www.reddit.com/r/linux_gaming/comments/tdh3gq/comment/kjxg9bk/).
